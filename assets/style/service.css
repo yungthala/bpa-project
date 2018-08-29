@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 50px;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 88px;
+  box-sizing: border-box;
+  background-color: #373948; 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 0px 0px 0px 30px;
+}
+
+header h1 {
+  font-size: 70px;
+  float: left;
+  margin: 5px 0px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul {
+  height: 70px;
+  float: right;
+}
+
+header nav ul li {
+  height: 40px;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+header nav ul li a {
+  height: 45px;
+  display: block;
+  padding: 17px 20px;
+  color: white;
+  font-size: 2.2em;
+  text-decoration: none;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+}
+header nav ul li a:hover{
+  color: black;
+}
+
+header nav ul li a.active{
+  height: 33px;
+  border-bottom: none;
+}
+
+header nav ul li a.link-1 { background-color: #BC9E79; }
+header nav ul li a.link-2 { background-color: #193661; }
+header nav ul li a.link-3 { background-color: #EC3C42; }
+header nav ul li a.link-4 { background-color: #60192F; }
+header nav ul li a.link-5 { background-color: #505FAB; }
+
+section#CSA {
+  width: 100%;
+  height: 1550px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#EAA {
+  width: 100%;
+  height: 1550px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+section#SAA {
+  width: 100%;
+  height: 1500px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#SLIA {
+  width: 100%;
+  height: 1500px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#SOA {
+  width: 100%;
+  height: 1550px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#CSA { background-color: #BC9E79; }
+section#SAA { background-color: #EC3C42; }
+section#EAA { background-color: #193661; }
+section#SLIA { background-color: #60192F; }
+section#SOA { background-color: #505FAB; }
+section#intro{background-color: white;}
+ 
+section h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 62px;
+  margin: 0px;
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px; 
+}
+
+section#intro {
+  width: 100%;
+  height: 270px;
+  box-sizing: border-box;
+  padding-top: 90px;
+  padding-left: 50px;
+  overflow: hidden;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+ a:hover {
+	color:white;
+	text-decoration:  underline;
+}
+
+a {
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section#index a:hover {
+	color: white;
+	text-decoration: none;	
+}
+section#index a{
+	color: white;
+	text-decoration: none;
+}
+
+section#index a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+section#index a {
+	font-size: 48px;
+}
+
+ 
+ section#intro h2 {
+ color: black;
+}
+
+section#pol a {
+	color: white;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+footer {
+	background-color: #373948;
+	color: white;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	height: 60px;
+	text-align: center;
+	padding-top: 20px;
+	margin-top: -3px;
+}
+footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+footer a:link {
+	margin-right: 30px;
+}
+
+

@@ -1,0 +1,330 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=iconicstroke);
+
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 50px;
+}
+
+/* iconic stroke */
+[class*="iconicstroke-"]:before {
+  font-family: 'iconicstroke', sans-serif;
+  font-size: 54px;
+}
+
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 88px;
+  box-sizing: border-box;
+  background-color: #373948; 
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 0px 0px 0px 30px;
+}
+
+ h1 {
+  font-size: 70px;
+  float: left;
+  margin: 5px 0px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav ul {
+  height: 70px;
+  float: right;
+}
+
+header nav ul li {
+  height: 40px;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+header nav ul li a {
+  height: 45px;
+  display: block;
+  padding: 17px 20px;
+  color: white;
+  font-size: 2.2em;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+  color: #373948;
+}
+
+header nav ul li a.active{
+  height: 33px;
+  border-bottom: none;
+}
+
+header nav ul li a.link-1 { background-color: #BC9E79; }
+header nav ul li a.link-2 { background-color: #193661; }
+header nav ul li a.link-3 { background-color: #EC3C42; }
+header nav ul li a.link-4 { background-color: #60192F; }
+header nav ul li a.link-5 { background-color: #505FAB; }
+header nav ul li a.link-6 { background-color: gray; }
+header nav ul li a.link-7 { background-color: #855D57; }
+
+
+
+section#MPR {
+  width: 100%;
+  height: 1800px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#MS {
+  width: 100%;
+  height: 1050px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+ 
+
+section#RYA {
+  width: 100%;
+  height: 1300px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+  
+}
+
+section#MEA {
+   width: 100%;
+  height: 1300px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#SMA {
+     width: 100%;
+  height: 2130px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+section#PC {
+   width: 100%;
+  height: 2370px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+}
+
+ section#AAE {
+  width: 100%;
+  height: 2550px;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+   padding-left: 50px;
+  
+}
+
+section#MPR { background-color: #BC9E79; }
+section#MS { background-color: #193661; }
+section#RYA { background-color: #EC3C42; } 
+section#SMA  {background-color: #505FAB}
+section#MEA { background-color: #60192F; }
+section#PC { background-color: gray; }
+section#AAE {  background-color: #855D57 ; }
+section#intro{background-color: white;}
+
+section h2 {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 62px;
+  margin: 0px;
+}
+
+
+section p {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px; 
+}
+
+ul {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1em; 
+   padding-left: 50px;
+}
+
+
+section#intro {
+  width: 100%;
+  height: 270px;
+  box-sizing: border-box;
+  padding-top: 90px;
+  padding-left: 50px;
+  overflow: hidden;
+}
+
+a:link, a:visited {
+	color: black;
+}
+
+ a:hover {
+	color:white;
+	text-decoration: underline;
+}
+
+a {
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h3{
+	font-size: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	 font-weight: 500;
+}
+
+section#MS a:link {
+	  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px; 
+}
+
+section#rubric a:link {
+	  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px; 
+}
+
+section#MPR ul {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+   padding-left: 50px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   line-height: 1.9;
+}
+
+
+section#AAE ul {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+   padding-left: 50px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   line-height: 1.9;
+}
+
+section#SMA ul {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+   padding-left: 50px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   line-height: 1.9;
+}
+
+section#PC ul {
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px; 
+   padding-left: 50px;
+   padding-top: 5px;
+   padding-bottom: 10px;
+   line-height: 1.9;
+}
+
+section#index a {
+	font-size: 48px;
+	color: white;
+}
+
+section#intro h2 {
+	color:black;
+}
+
+
+ section#app a:link, a:visited {
+	color: black;
+}
+
+section#app a:hover {
+	color:white;
+	text-decoration: underline;
+}
+
+section#app a {
+	font-size: 24px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section#index a:hover {
+	color: white;
+	text-decoration: none;	
+}
+section#index a{
+	color: white;
+	text-decoration: none;
+}
+
+section#index a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+section#pol a {
+	color: white;
+}
+
+
+img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+
+
+
